@@ -34,7 +34,7 @@ class HomeController extends Controller
      * 
      * @return array $data
      */
-    public function getReport() {
+    public function fetchReport() {
         $userId = \Auth::user()->id;
         
         $results = DB::table('user_answers')

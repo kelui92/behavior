@@ -19,10 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/fetchReport', 'HomeController@getReport');
+Route::get('/fetchReport', 'HomeController@fetchReport');
 
 Route::get('/question', 'QuestionController@index')->name('question');
 
-Route::get('/fetchQuestions', 'QuestionController@getRandomQuestions');
+Route::get('/fetchQuestions', 'QuestionController@fetchQuestions');
 
 Route::post('/answerQuestions', 'QuestionController@answerQuestions');

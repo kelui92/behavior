@@ -36,7 +36,7 @@ class QuestionController extends Controller
      * 
      * @return: returns a structured object of questions and answers
      */
-    public function getRandomQuestions() {
+    public function fetchQuestions() {
         $questionsAnswers = [];
         
         /*
