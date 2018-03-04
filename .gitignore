@@ -25,3 +25,4 @@ Homestead.json
 /.vagrant
 yarn-error.log
 .env
+/nbproject
